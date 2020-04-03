@@ -1,6 +1,6 @@
     .contenedor {
         margin: 10px auto;
-        width: 50%;
+        width: 60%;
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -12,7 +12,7 @@
         }
         .contenido {
         width: 100px;
-        height: 100px;
+        height: 150px;
         margin-top: 10px;
         margin-bottom: 10px;
         margin-left: 20px;
@@ -27,7 +27,7 @@
 
         .contenedor2 {
             margin: 10px auto;
-            width: 50%;
+            width: 60%;
             display:flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -45,3 +45,22 @@
             margin-left: 20px;
             margin-right: 20px;
             }
+
+.button1{
+    background-image: url("images/stone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 64px 64px;
+}
+.button2{
+    background-image: url("images/paper.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 64px 64px;
+}
+.button3{
+    background-image: url("images/scissors.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 64px 64px;
+}
